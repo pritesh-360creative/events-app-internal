@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: demo-api
-        image: gcr.io/dtc-092021-316/internal-image@sha256:9f5ba75ffddb964e891c57dc731bfe4710aa958d79578f2f3c3bdff161da02b0:v2.0.0
+        image: gcr.io/dtc-092021-316/internal-image:v3.0.0
         env: 
         - name: PORT
           value: "8082"
